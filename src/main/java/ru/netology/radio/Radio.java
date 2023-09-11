@@ -14,13 +14,6 @@ public class Radio {
         this.maxStation = numberStation - 1;
     }
 
-    public Radio(int currentStation, int currentVolume, int numberStation, int maxStation) {
-        this.currentStation = currentStation;
-        this.currentVolume = currentVolume;
-        this.numberStation = numberStation;
-        this.maxStation = maxStation;
-    }
-
     public Radio() {
 
     }
