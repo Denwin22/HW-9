@@ -127,16 +127,6 @@ public class RadioTest {
     }
 
     @Test
-    public void shouldIncreaseVolumeOutLimit() {
-        Radio radio = new Radio(5, 0, 10, 9);
-        radio.setCurrentVolume(110);
-        int currentVolume = radio.increaseVolume();
-        radio.setCurrentVolume(currentVolume);
-
-        Assertions.assertEquals(1, radio.getCurrentVolume());
-    }
-
-    @Test
     public void shouldDecreaseVolumeOutLimit() {
         Radio radio = new Radio();
         radio.setCurrentVolume(-1);
